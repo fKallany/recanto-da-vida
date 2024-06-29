@@ -6,7 +6,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import GlobalStyle from '/styles/globalStyles';
 import * as Path from '/pages/import-pages.ts';
-import NavBar from '/components/NavBar/index.ts';
+import NavBar from '/components/NavBar/';
 
 const rootElement = document.getElementById('root');
 if (rootElement) {
