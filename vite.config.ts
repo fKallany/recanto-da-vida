@@ -12,5 +12,10 @@ export default defineConfig({
       '/pages': '/src/pages',
       '/styles': '/src/styles'
     }
+  },
+  build: {
+    rollupOptions: {
+      input: './src/main.tsx',
+    }
   }
 });
