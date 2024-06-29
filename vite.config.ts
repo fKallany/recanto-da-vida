@@ -14,8 +14,12 @@ export default defineConfig({
     }
   },
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
-      input: './src/main.tsx',
+      input: {
+        main: './src/main.tsx',
+      }
     }
   }
 });
